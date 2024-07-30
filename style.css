@@ -1,0 +1,242 @@
+/* Aplica estilos básicos a todos os elementos */
+* {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total do elemento */
+    font-family: "Love Ya Like A Sister", cursive; /* Define a família de fontes */
+    font-weight: 400; /* Define o peso da fonte */
+    font-style: normal; /* Define o estilo da fonte */
+    color: #412511; /* Define a cor do texto */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-image: url(./img/fundo.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: 100%; /* Ajusta a imagem para cobrir 100% do elemento */
+}
+
+
+/* Estiliza o título principal no cabeçalho */
+header h1 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 140px; /* Define o tamanho da fonte */
+}
+
+
+/* Estiliza os elementos <h5> */
+h5 {
+    font-weight: bold; /* Define a fonte em negrito */
+    height: 20px; /* Define a altura do elemento */
+    padding: 5px; /* Adiciona preenchimento interno */
+    margin: 5px; /* Adiciona margem externa */
+}
+
+
+/* Estiliza a div com a classe .in */
+.in {
+    height: 30px; /* Define a altura */
+    border-top: solid #412511 2.5px; /* Adiciona uma borda superior */
+    border-bottom: solid #412511 2.5px; /* Adiciona uma borda inferior */
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: space-between; /* Espaça os itens igualmente */
+}
+
+/* Estiliza o elemento principal */
+main {
+    background-image: url(./img/fundo.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: 100%; /* Ajusta a imagem para cobrir 100% do elemento */
+}
+
+.parte1 {
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Estiliza o subtítulo principal no main */
+main h2 {
+    height: 15vh; /* Define a altura em porcentagem da viewport */
+    font-size: 75px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    padding-top: 20px; /* Adiciona preenchimento superior */
+}
+
+
+/* Aplica estilos básicos a todos os elementos */
+* {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total do elemento */
+    font-family: "Love Ya Like A Sister", cursive; /* Define a família de fontes */
+    font-weight: 400; /* Define o peso da fonte */
+    font-style: normal; /* Define o estilo da fonte */
+    color: #412511; /* Define a cor do texto */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-image: url(./img/fundo.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: 100%; /* Ajusta a imagem para cobrir 100% do elemento */
+}
+
+/* Estiliza o título principal no cabeçalho */
+header h1 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 140px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza os elementos <h5> */
+h5 {
+    font-weight: bold; /* Define a fonte em negrito */
+    height: 20px; /* Define a altura do elemento */
+    padding: 5px; /* Adiciona preenchimento interno */
+    margin: 5px; /* Adiciona margem externa */
+}
+
+/* Estiliza a div com a classe .in */
+.in {
+    height: 30px; /* Define a altura */
+    border-top: solid #412511 2.5px; /* Adiciona uma borda superior */
+    border-bottom: solid #412511 2.5px; /* Adiciona uma borda inferior */
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: space-between; /* Espaça os itens igualmente */
+}
+
+/* Estiliza o elemento principal */
+main {
+    background-image: url(./img/fundo.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: 100%; /* Ajusta a imagem para cobrir 100% do elemento */
+}
+
+/* Estiliza o subtítulo principal no main */
+main h2 {
+    height: 15vh; /* Define a altura em porcentagem da viewport */
+    font-size: 75px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    padding-top: 20px; /* Adiciona preenchimento superior */
+}
+
+/* Estiliza o título h3 dentro de .parte1 */
+.parte1 h3 {
+    width: 40vw; /* Define a largura em porcentagem da viewport */
+    font-size: 50px; /* Define o tamanho da fonte */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Estiliza os parágrafos dentro de .parte1 */
+.parte1 p {
+    width: 50vw; /* Define a largura em porcentagem da viewport */
+    height: 40vh; /* Define a altura em porcentagem da viewport */
+    font-size: 20px; /* Define o tamanho da fonte */
+    margin-top: 8px; /* Adiciona margem superior */
+    line-height: 2; /* Define a altura da linha */
+}
+
+/* Estiliza a imagem dentro de .parte1 */
+.parte1 img {
+    width: 35vw; /* Define a largura em porcentagem da viewport */
+    height: 100vh; /* Define a altura em porcentagem da viewport */
+    margin-top: 20px; /* Adiciona margem superior */
+    margin-left: 3%; /* Adiciona margem à esquerda */
+}
+
+/* Estiliza o parágrafo dentro de .paragrafo2 */
+.paragrafo2 {
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: center; /* Centraliza os itens */
+    padding-right: 90px; /* Adiciona preenchimento à direita */
+    padding-top: 20px; /* Adiciona preenchimento superior */
+}
+
+/* Estiliza os parágrafos dentro de .paragrafo2 */
+.paragrafo2 p {
+    width: 30vw; /* Define a largura em porcentagem da viewport */
+    font-size: 20px; /* Define o tamanho da fonte */
+    margin-left: 20%; /* Adiciona margem à esquerda */
+    line-height: 2; /* Define a altura da linha */
+}
+
+/* Estiliza a imagem dentro de .parte2 */
+.parte2 img {
+    width: 35vw; /* Define a largura em porcentagem da viewport */
+    margin-left: 8%; /* Adiciona margem à esquerda */
+    
+}
+
+/* Estiliza o parágrafo dentro de .paragrafo3 */
+.paragrafo3 {
+    width: 85vw; /* Define a largura em porcentagem da viewport */
+    height: 25vh; /* Define a altura em porcentagem da viewport */
+    font-size: 20px; /* Define o tamanho da fonte */
+    margin-left: 9%; /* Adiciona margem à esquerda */
+    line-height: 2; /* Define a altura da linha */
+}
+
+/* Estiliza a seção .finalmain */
+.finalmain {
+    padding-top: 20px; /* Adiciona preenchimento superior */
+    background-image: url(./img/fundo.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: 100%; /* Ajusta a imagem para cobrir 100% do elemento */
+}
+
+/* Estiliza o título h6 dentro do main */
+main h6 {
+    border-bottom: solid #412511 2.5px; /* Adiciona uma borda inferior */
+    width: 100%; /* Define a largura total */
+    padding-top: 20px; /* Adiciona preenchimento superior */
+}
+
+/* Estiliza o título h4 */
+h4 {
+    font-size: 50px; /* Define o tamanho da fonte */
+    height: 25vh; /* Define a altura em porcentagem da viewport */
+    width: 75vw; /* Define a largura em porcentagem da viewport */
+    text-align: center; /* Centraliza o texto */
+    margin-left: 12%; /* Adiciona margem à esquerda */
+    background-color: #412511; /* Define a cor de fundo */
+    color: aliceblue; /* Define a cor do texto */
+    margin-top: 20px; /* Adiciona margem superior */
+    padding-top: 2%; /* Adiciona preenchimento superior */
+}
+
+/* Estiliza a imagem dentro do footer */
+footer img {
+    width: 40vw; /* Define a largura em porcentagem da viewport */
+    margin-left: 30px; /* Adiciona margem à esquerda */
+}
+
+/* Estiliza o rodapé */
+footer {
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: center; /* Centraliza os itens */
+    padding-top: 30px; /* Adiciona preenchimento superior */
+    background-image: url(./img/fundo.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: 100%; /* Ajusta a imagem para cobrir 100% do elemento */
+}
+
+/* Estiliza a div .footer1 dentro do footer */
+.footer1 {
+    font-size: 20px; /* Define o tamanho da fonte */
+    width: 45vw; /* Define a largura em porcentagem da viewport */
+}
+
+/* Estiliza os parágrafos dentro de .footer1 */
+.footer1 p {
+    margin-right: 80px; /* Adiciona margem à direita */
+    width: 40vw; /* Define a largura em porcentagem da viewport */
+
+}
+
+/* Estiliza os parágrafos dentro do footer */
+footer p {
+    width: 20vw; /* Define a largura em porcentagem da viewport */
+    font-size: 20px; /* Define o tamanho da fonte */
+    align-items: center; /* Alinha os itens ao centro */
+    margin-left: 30px; /* Adiciona margem à esquerda */
+    line-height: 2; /* Define a altura da linha */
+}
